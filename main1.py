@@ -16,7 +16,7 @@ while True:
     count += 1
     if count % 3 != 0:
         continue
-    frame=cv2.resize(frame,(1020,500))
+    frame=cv2.resize(frame,(500,480))
     overlay = frame.copy()
     alpha = 0.7
 
