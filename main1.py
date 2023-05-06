@@ -7,7 +7,7 @@ my_file = open("coco.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 
-cap=cv2.VideoCapture('t2.mp4')
+cap=cv2.VideoCapture('p3.mp4')
 count=0
 while True:
     ret,frame=cap.read()
